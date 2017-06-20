@@ -1,10 +1,12 @@
 name 'file_handler'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
+maintainer 'kblaster'
+maintainer_email 'kblaster@kblaster.kk'
 license 'all_rights'
 description 'Installs/Configures file_handler'
 long_description 'Installs/Configures file_handler'
 version '0.1.0'
+
+depends "chef_handler"
 
 # If you upload to Supermarket you should set this so your cookbook
 # gets a `View Issues` link
